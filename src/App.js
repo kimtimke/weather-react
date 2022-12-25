@@ -1,13 +1,20 @@
 import "./App.css";
 import Search from "./Search";
+import Temperature from "./Temperaure";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello World hello</h1>
-        <Search city="Windhoek" />
-      </header>
+    <div className="container">
+      <div className="weather-app-wrapper">
+        <div className="weather-app">
+          <Header />
+          <Search />
+          <Temperature />
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 }
