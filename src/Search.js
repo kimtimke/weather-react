@@ -8,7 +8,7 @@ export default function Search() {
           <div class="col-9">
             <input
               type="search"
-              placeholder="Type a city.."
+              placeholder="Type a city..."
               class="form-control"
               id="city-input"
               autocomplete="off"
